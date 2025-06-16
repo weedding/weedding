@@ -38,9 +38,7 @@ const Header = () => {
       </h1>
 
       <button className="burger-button" aria-label="Toggle menu" onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
+        MENU
       </button>
 
       <nav className={`header-nav ${menuOpen ? "open" : ""}`}>

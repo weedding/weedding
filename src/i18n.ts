@@ -68,6 +68,7 @@ const resources = {
       "confirm rule": "Щоб підтвердити свою присутність, натисніть кнопку нижче.",
       "Your confirm": "Ви вже підтвердили свою присутність на весіллі!",
       "Thanks for confirm": "Дякуємо за підтвердження!",
+      "latinonic error": "Використовуйте лише латиницю.",
     },
   },
   en: {
@@ -135,6 +136,7 @@ const resources = {
       "welcome": "Welcome,",
       "Your confirm": "You have already confirmed your presence at the wedding!",
       "Thanks for confirm": "Thank you for confirming!",
+      "latinonic error": "Please use only Latin characters.",
     },
   },
 };

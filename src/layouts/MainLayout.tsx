@@ -19,6 +19,16 @@ const MainLayout: FC = () => {
 
   // Флаг, чи починався відтворення аудіо (щоб не запускати зайвий раз)
   const [audioStarted, setAudioStarted] = useState(false);
+  console.log('language', language);
+
+  useEffect(() => {
+    const localLanguage = localStorage.getItem("language");
+    if(localLanguage) {
+      i18n.changeLanguage(localLanguage);
+      dispatch(authActions.setLanguage(localLanguage));
+    }
+  }, [])
+  
 
   useEffect(() => {
     i18n.changeLanguage(language);
